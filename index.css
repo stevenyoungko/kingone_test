@@ -43,6 +43,43 @@ body {
   top: 2%;
 }
 
+.home_titlebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 38%;
+  top: 2%;
+}
+
+.home_title {
+  width: 561.3px;
+  height: 51px;
+  font-family: MicrosoftYaHeiBold-GBpc-EUC-H;
+  font-size: 41.7px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 8.35px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.home_subtitle {
+  width: 563.3px;
+  height: 34px;
+  font-family: MicrosoftYaHeiGBpc-EUC-H;
+  font-size: 30.1px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.81;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+
 .home_banner {
   height: 395px;
   width: 695px;
