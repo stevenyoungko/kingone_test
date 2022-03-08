@@ -41,6 +41,28 @@ for (let i = 0; i <= 100; i ++) {
 }
 
 // 9.
+var x = 1;         
+var y = 5;        
+for (var n = 1 ; n < 6 ; n ++) {            
+  for (var i = 0 ; i < y ; i ++) {                
+    document.write("&nbsp");            
+  }            
+  if (n < 3) {                
+    y--            
+  } else {                
+    y++            
+  }            
+  for(var j = 0 ; j < 2 * x - 1 ; j ++) {                
+    document.write("*");            
+  }            
+  if (n < 3) {                
+    x++;            
+  } else {                
+    x--;           
+  }            
+
+  document.write("<br>")        
+}
 
 // 10.
 function add(a, b) {
